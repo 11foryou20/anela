@@ -1,0 +1,467 @@
+/*-----------------------------------------------------------
+* Name             : AnelA －アネラ－
+* Created          : 2019/11/19
+* File Description : Main css file of the template
+*------------------------------------------------------------
+*/
+
+/***********************
+    0.BODY / INNER
+    1.HEADER
+    2.EYE-CATCH
+    3.CONCEPT
+    4.ITEM
+    5.ORDER 
+    6.CONTACT
+    7.FOOTER
+    8.RESPONSIVE
+************************/
+
+/*======================
+     0.BODY / INNER
+========================*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Crimson Text', 'Noto Sans JP', sans-serif;
+}
+
+.inner {
+    width: 70vw;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 20vh;
+}
+
+.inner h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: lighter;
+    /* color: #fff; */
+    /* margin-top: 6vh; */
+    margin-bottom: 6vh;
+    text-align: center;
+    text-transform: uppercase;
+    /* background-color: blue; */
+}
+
+/*======================
+        1.HEADER
+========================*/
+
+header {
+    height: 20vh;
+    width: 100%;
+    max-width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header_logo img {
+    width: 13vw;
+    height: 8vh;
+    float: left;
+    margin: 5vh 3vw;
+}
+
+.header_menu {
+    height: 100%;
+    float: right;
+    margin-right: 40vh;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+}
+
+.header_menu li {
+    float: left;
+    margin: 8vh 2vw;
+}
+
+.header_menu a {
+    color: #331c17;
+    text-decoration: none;
+}
+
+.header_sns {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translateY(-50%);
+}
+
+.sns {
+    float: left;
+}
+
+.sns a {
+    display: inline-block;
+    text-decoration: none;
+    background: #ede4cd;
+    color: #FFF;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    transition: .4s;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.sns a:hover {
+    background: #e6dcc5;
+}
+
+/*======================
+      2.EYE-CATCH
+========================*/
+
+#eye-catch {
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10vh;
+}
+
+#eye-catch .inner {}
+
+.eye-catch_main {
+    width: 70vw;
+    height: 60vh;
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    background-image: url(../images/eye-catch_bg2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.eye-catch_copy {
+    /* line-height: 50vh; */
+    /* background-color: blue; */
+    font-size: 3rem;
+    color: #fff;
+    position: absolute;
+    top: 40vh;
+    right: -22vw;
+}
+
+.shadowbox {
+    background-color: #ede4cd;
+}
+
+.bg1 {
+    height: 40vh;
+    margin: 0 -200% 0 10vw;
+    padding: 0 200%;
+    position: absolute;
+    top: 50vh;
+    left: 20vw;
+    z-index: -2;
+}
+
+/*======================
+       3.CONCEPT
+========================*/
+
+#concept {
+    height: 120vh;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10vh;
+    padding-top: 5vh;
+    ;
+}
+
+.bg2 {
+    height: 50vh;
+    margin: 0 10vw 0 -200%;
+    padding: 0 200%;
+    position: absolute;
+    top: 20vh;
+    right: 10vw;
+    z-index: -2;
+}
+
+.concept_wrapper {
+    position: relative;
+}
+
+.concept_image {
+    width: 55vw;
+    height: 70vh;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.concept_text {
+    width: 20vw;
+    position: absolute;
+    top: 5vh;
+    left: 50vw;
+    z-index: 5;
+    margin: 10vh auto;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #331c17;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 1rem;
+}
+
+/*======================
+        4.ITEM
+========================*/
+
+#item {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    z-index: -6;
+    margin-top: -5vh;
+    padding-top: 5vh;
+    text-align: center;
+}
+
+.bg3 {
+    height: 45vh;
+    margin: 15vh -200% 0 10vw;
+    padding: 0 200%;
+    position: absolute;
+    left: 10vw;
+    z-index: -2;
+}
+
+.item_list {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item_content {
+    float: left;
+}
+
+/*======================
+         5.ORDER
+========================*/
+
+#order {
+    /* background-color: yellowgreen; */
+    height: 120vh;
+    position: relative;
+    margin-top: -5vh;
+    padding-top: 5vh;
+}
+
+.bg4 {
+    height: 70vh;
+    margin: 0 10vw 0 -200%;
+    padding: 0 200%;
+    position: absolute;
+    top: 20vh;
+    right: 10vw;
+    z-index: -2;
+}
+
+.order_cases {
+    margin: 0 -200%;
+    padding: 0 200%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.order_case {
+    width: 30vw;
+    height: 70vh;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+}
+
+.order_case h3 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 3rem;
+}
+
+.case-1 {
+    background: -moz-linear-gradient(top, #000, transparent), url(../images/order-case1_bg.jpg);
+    background: -webkit-linear-gradient(top, #000, transparent), url(../images/order-case1_bg.jpg);
+    background: linear-gradient(to bottom, #000, transparent), url(../images/order-case1_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.case-2 {
+    background: -moz-linear-gradient(bottom, #000, transparent), url(../images/order-case2_bg.jpg);
+    background: -webkit-linear-gradient(bottom, #000, transparent), url(../images/order-case2_bg.jpg);
+    background: linear-gradient(to top, #000, transparent), url(../images/order-case2_bg.jpg);
+    position: relative;
+}
+
+.reverse {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+}
+
+.case-3 {
+    background: -moz-linear-gradient(top, #000, transparent), url(../images/order-case3_bg.jpg);
+    background: -webkit-linear-gradient(top, #000, transparent), url(../images/order-case3_bg.jpg);
+    background: linear-gradient(to bottom, #000, transparent), url(../images/order-case3_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*======================
+       6.CONTACT
+========================*/
+
+#contact {
+    height: 150vh;
+    overflow: hidden;
+    position: relative;
+    z-index: -6;
+    margin-top: -5vh;
+    padding-top: 5vh;
+    text-align: center;
+}
+
+.bg5 {
+    height: 45vh;
+    margin: 15vh -200% 0 10vw;
+    padding: 0 200%;
+    position: absolute;
+    left: 10vw;
+    z-index: -2;
+}
+
+.contact_summary {
+    width: 60%;
+    line-height: 1.5rem;
+    letter-spacing: 0.05rem;
+    margin: 3vh auto 10vh auto;
+}
+
+.formrun {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    /* border-left: 0.5px solid #000; */
+    /* border-right: 0.5px solid #000; */
+}
+
+.formrun div {
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formrun div label {
+    line-height: 2rem;
+    letter-spacing: 0.05rem;
+    margin-right: 2vw;
+}
+
+.formrun input {
+    width: 40%;
+    height: 6vh;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+.formrun textarea {
+    width: 50%;
+    height: 15vh;
+    border: 1px solid #000;
+    margin: 0 auto 5vh auto;
+}
+
+form button {
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
+    background: #ede4cd;
+    color: #000;
+    border-bottom: solid 4px #cabfa6;
+    border-radius: 3px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+form button:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.116);
+    border-bottom: none;
+    margin-bottom: 1px;
+}
+
+/*======================
+         7.SHOP
+========================*/
+
+#shop {
+    background-color: #ede4cd;
+}
+
+.shop_container {
+    width: 70vw;
+    /* height: 100vh; */
+    margin: 0 auto;
+    padding: 5rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+iframe {
+    height: 40vh;
+    width: 40vw;
+    resize: both;
+    overflow: auto;
+}
+
+.shop_address {
+    width: 25vw;
+    margin: 0 auto;
+}
+
+.shop_address p, h1 {
+    line-height: 1.5rem;
+}
+
+/*======================
+        8.FOOTER
+========================*/
+
+footer {
+    height: 10vh;
+    margin: 0 auto;
+}
+
+.footer_logo {
+    margin: -3vh auto;
+    width: 10vw;
+}
+
+.footer_logo img {
+    width: 13vw;
+    height: 8vh;
+    margin: 5vh auto;
+}
+
+.copyright {
+    font-size: smaller;
+    text-align: center;
+}
