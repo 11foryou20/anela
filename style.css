@@ -332,7 +332,6 @@ header {
     height: 150vh;
     overflow: hidden;
     position: relative;
-    z-index: -6;
     margin-top: -5vh;
     padding-top: 5vh;
     text-align: center;
